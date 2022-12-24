@@ -1,0 +1,20 @@
+to change directory to your folder within your current folder
+-cd (ex. SSM_BackEnd)
+
+to exit current folder
+-cd..
+
+first go to your backend folder
+opening sanity command list terminal
+-npx @sanity/cli
+
+to run react server. first go to front end folder then
+-npm start
+if you want to terminal sanity.
+click: ctrl + c
+
+
+i learned that if you wanna use your alrealy setup
+sanity database. 
+enter: npx sanity init
+on the precess it will ask you if you what database you wanna use. 
