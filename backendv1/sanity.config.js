@@ -5,10 +5,10 @@ import {schemaTypes} from './schemas'
 
 export default defineConfig({
   name: 'default',
-  title: 'cyan-lapwing',
+  title: 'test.social-media',
 
-  projectId: 'sd5894io',
-  dataset: 'cancel',
+  projectId: '9ofjtrc8',
+  dataset: 'production',
 
   plugins: [deskTool(), visionTool()],
 
