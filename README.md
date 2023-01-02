@@ -25,5 +25,18 @@ use this code in your terminal
 second locate your frontend folder using your terminal
 
 npx create-react-app ./
+npm install -D tailwindcss
+npx tailwindcss init
 
 this will setup the react modules and dependencies of your project 
+
+though this first 3 commands can found in react documentary.
+ill just put it here for convenience
+
+other modules you will need:
+npm install @sanity/client @sanity/image-url react-icons react-loader-spinner react-masonry-css react-router-dom uuid
+
+if the download process fails for some reason then add -f after the command
+ex.
+npm install react-loader-spinner -f
+
