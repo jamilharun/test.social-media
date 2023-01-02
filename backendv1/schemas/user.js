@@ -16,7 +16,17 @@ export default defineType({
                 {
                     name: 'image',
                     title: 'Image',
-                    type: 'string'
+                    type: 'image',
+                    options: {
+                        hotspot: true
+                    }
+                }
+            ),
+            defineField(
+                {
+                    name: 'password',
+                    title: 'Password',
+                    type: 'string',
                 }
             )
         ]
